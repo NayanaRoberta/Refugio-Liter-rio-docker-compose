@@ -10,7 +10,7 @@ def get_db_connection():
         host='bd', #nome do bd no docker
         user='root',
         password='exampe',
-        daabase='biblioteca'
+        database='biblioteca'
     )
 
 @app.route('/')
